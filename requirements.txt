@@ -1,0 +1,2 @@
+# Optional: faster HxStore decompression (a pure-Python fallback is used without it)
+lz4>=4.0

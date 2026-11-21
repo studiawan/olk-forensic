@@ -1,0 +1,45 @@
+# --- Evidence and case output: never commit ---
+Main Profile/
+*Profile*/
+*.hfl
+*.hxd
+*.bhxd
+*.olk15*
+olk_forensic_out/
+*_out/
+hxstore_extract/
+hxcore_*.db
+hxcore_*.csv
+hxcore_*.html
+hxcore_catalog.txt
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+.docenv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+.env
+
+# --- Documentation build ---
+docs/_build/
+
+# --- OS / editors ---
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+Thumbs.db
